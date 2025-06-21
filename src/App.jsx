@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, BrowserRouter } from "react-router-dom"
 import DefaultLayout from "./layout/DefaultLayout";
 
 // import pages
@@ -12,14 +12,16 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route element={<DefaultLayout />}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/consoles/:id" element={<ConsoleDetails />} />
-          <Route path="/compare" element={<ConsoleComparator />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
-        </Route>
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<DefaultLayout />}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/consoles/:id" element={<ConsoleDetails />} />
+            <Route path="/compare" element={<ConsoleComparator />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
