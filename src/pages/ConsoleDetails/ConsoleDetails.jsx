@@ -13,7 +13,7 @@ export default function ConsoleDetails() {
     const [error, setError] = useState(null);
 
     const { toggleFavorite, isFavorite } = useFavorites();
-    const { addToCompare } = useCompare();
+    const { addToCompare, isInCompare } = useCompare();
 
 
 
@@ -123,7 +123,7 @@ export default function ConsoleDetails() {
                     onClick={() => addToCompare(consoleData)}
                     title="Vai alla pagina di comparazione"
                 >
-                    <FaBalanceScale color="grey" />
+                    <FaBalanceScale color={isInCompare(consoleId) ? "red" : "grey"} />
                 </button>
             </div>
         </div>
