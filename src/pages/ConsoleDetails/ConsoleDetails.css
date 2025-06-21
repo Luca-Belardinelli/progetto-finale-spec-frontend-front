@@ -1,0 +1,45 @@
+.container_detail {
+    width: 90%;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.title_console {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.console-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.console-info {
+    padding: 0.8rem 0;
+    font-size: 0.8rem;
+}
+
+.console-info p {
+    margin: 0.5rem 0;
+}
+
+
+
+.button_fav_detail,
+.icon-button-detail {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 5px;
+}

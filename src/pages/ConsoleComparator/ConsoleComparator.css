@@ -1,0 +1,93 @@
+.compare-page {
+    width: 95%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.compare-page h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.compare-title-page {
+    padding-top: 50px;
+    height: 60vh;
+    font-size: 1.2rem;
+    color: #ff0000;
+    text-align: center;
+}
+
+/* Griglia affiancata per confronto */
+.compare-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Ogni card di confronto */
+.compare-card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.compare-card:hover {
+    transform: scale(1.02);
+}
+
+.compare-card h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.compare-card img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.compare-info {
+    padding: 0.8rem 0;
+    font-size: 0.85rem;
+}
+
+.compare-info p {
+    margin: 0.4rem 0;
+}
+
+/* Pulsanti di confronto */
+.compare-card button {
+    display: block;
+    margin: 1rem auto 0 auto;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* Seleziona solo i <button> figli diretti di .compare-page */
+.compare-page>button {
+    display: block;
+    margin: 2rem auto 0 auto;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}

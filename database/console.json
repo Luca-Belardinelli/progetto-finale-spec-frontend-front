@@ -1,0 +1,200 @@
+[
+    {
+        "title": "PlayStation 5",
+        "category": "fissa",
+        "brand": "Sony",
+        "releaseYear": 2020,
+        "price": 549,
+        "description": "L'ultima console di Sony, con tempi di caricamento rapidissimi e grafica mozzafiato.",
+        "imageUrl": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHM1fGVufDB8fDB8fHww",
+        "resolution": "4K (supporto 8K)",
+        "storage": "825GB SSD",
+        "popularGames": [
+            "Marvel's Spider-Man 2",
+            "God of War Ragnarök"
+        ],
+        "id": 1,
+        "createdAt": "2025-06-16T09:12:43.815Z",
+        "updatedAt": "2025-06-16T09:12:43.815Z"
+    },
+    {
+        "title": "Xbox Series X",
+        "category": "fissa",
+        "brand": "Microsoft",
+        "releaseYear": 2020,
+        "price": 533.37,
+        "description": "La console più potente di Microsoft, ottimizzata per velocità e prestazioni.",
+        "imageUrl": "https://images.unsplash.com/photo-1683823362932-6f7599661d22?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHhib3glMjB4fGVufDB8fDB8fHww",
+        "resolution": "4K (supporto 8K)",
+        "storage": "1TB NVMe SSD",
+        "popularGames": [
+            "Halo Infinite",
+            "Forza Horizon 5"
+        ],
+        "id": 2,
+        "createdAt": "2025-06-16T09:13:47.012Z",
+        "updatedAt": "2025-06-16T09:13:47.012Z"
+    },
+    {
+        "title": "Nintendo Switch Oled",
+        "category": "ibrida",
+        "brand": "Nintendo",
+        "releaseYear": 2021,
+        "price": 269.99,
+        "description": "Versione migliorata di Nintendo Switch con uno splendido schermo OLED e audio potenziato.",
+        "imageUrl": "https://images.unsplash.com/photo-1642049671757-898ffe9b7bfc?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "720p (portatile), 1080p (TV)",
+        "storage": "64GB Interno (espandibile)",
+        "popularGames": [
+            "The Legend of Zelda: Tears of the Kingdom",
+            "Super Mario Odyssey"
+        ],
+        "dimensions": "102 x 242 x 13.9 mm (con Joy-Con)",
+        "weightKg": 0.42,
+        "batteryLifeHrs": 4.5,
+        "id": 3,
+        "createdAt": "2025-06-16T09:18:30.451Z",
+        "updatedAt": "2025-06-16T09:18:30.451Z"
+    },
+    {
+        "title": "PlayStation 4 Pro",
+        "category": "fissa",
+        "brand": "Sony",
+        "releaseYear": 2016,
+        "price": 192,
+        "description": "Versione potenziata della PS4, con capacità di rendering 4K e prestazioni migliorate.",
+        "imageUrl": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "Fino a 4K (upscaled)",
+        "storage": "1TB HDD",
+        "popularGames": [
+            "The Last of Us Part II",
+            "Horizon Zero Dawn"
+        ],
+        "id": 4,
+        "createdAt": "2025-06-16T09:18:48.542Z",
+        "updatedAt": "2025-06-16T09:18:48.542Z"
+    },
+    {
+        "title": "Xbox One S",
+        "category": "fissa",
+        "brand": "Microsoft",
+        "releaseYear": 2016,
+        "price": 190.84,
+        "description": "Console versatile con lettore Blu-ray 4K e un design più sottile rispetto alla Xbox One originale.",
+        "imageUrl": "https://images.unsplash.com/photo-1731762524985-635ba4710fee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmludGVuZG8lMjAzZHxlbnwwfHwwfHx8MA%3D%3D",
+        "resolution": "1080p (supporto 4K Blu-ray)",
+        "storage": "1TB HDD",
+        "popularGames": [
+            "Gears 5",
+            "Halo 5: Guardians"
+        ],
+        "id": 5,
+        "createdAt": "2025-06-16T09:19:02.028Z",
+        "updatedAt": "2025-06-16T09:19:02.028Z"
+    },
+    {
+        "title": "Nintendo Switch Lite",
+        "category": "portatile",
+        "brand": "Nintendo",
+        "releaseYear": 2019,
+        "price": 199.99,
+        "description": "Versione solo portatile di Nintendo Switch, più leggera e maneggevole.",
+        "imageUrl": "https://images.unsplash.com/photo-1618556679398-486ba2cf2e89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "720p (portatile)",
+        "storage": "32GB Interno (espandibile)",
+        "popularGames": [
+            "Animal Crossing: New Horizons",
+            "Pokémon Scarlatto e Violetto"
+        ],
+        "dimensions": "91.1 x 208 x 13.9 mm",
+        "weightKg": 0.27,
+        "batteryLifeHrs": 3.5,
+        "id": 6,
+        "createdAt": "2025-06-16T09:19:15.682Z",
+        "updatedAt": "2025-06-16T09:19:15.682Z"
+    },
+    {
+        "title": "Steam Deck Oled",
+        "category": "portatile",
+        "brand": "Valve",
+        "releaseYear": 2023,
+        "price": 690,
+        "description": "Una console portatile potente che permette di giocare a titoli PC ovunque con uno schermo OLED.",
+        "imageUrl": "https://images.unsplash.com/photo-1654621158365-55fcf7b76fb7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "1280x800 OLED",
+        "storage": "512GB NVMe SSD",
+        "popularGames": [
+            "Elden Ring (PC)",
+            "Cyberpunk 2077 (PC)"
+        ],
+        "dimensions": "298 x 117 x 49 mm",
+        "weightKg": 0.64,
+        "batteryLifeHrs": 6,
+        "id": 7,
+        "createdAt": "2025-06-16T09:19:29.394Z",
+        "updatedAt": "2025-06-16T09:19:29.394Z"
+    },
+    {
+        "title": "PlayStation Vita",
+        "category": "portatile",
+        "brand": "Sony",
+        "releaseYear": 2011,
+        "price": 194.5,
+        "description": "La console portatile di Sony con un bellissimo schermo OLED e due stick analogici.",
+        "imageUrl": "https://images.unsplash.com/photo-1513599898445-1c34777500ab?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "960x544 OLED",
+        "storage": "Memory Card (proprietaria)",
+        "popularGames": [
+            "Persona 4 Golden",
+            "Uncharted: Golden Abyss"
+        ],
+        "dimensions": "182 x 18.6 x 83.5 mm",
+        "weightKg": 0.27,
+        "batteryLifeHrs": 5,
+        "id": 8,
+        "createdAt": "2025-06-16T09:19:38.743Z",
+        "updatedAt": "2025-06-16T09:19:38.743Z"
+    },
+    {
+        "title": "Nintendo 3DS XL",
+        "category": "portatile",
+        "brand": "Nintendo",
+        "releaseYear": 2012,
+        "price": 152.42,
+        "description": "La console portatile di Nintendo con uno schermo 3D autostereoscopico più grande.",
+        "imageUrl": "https://images.unsplash.com/photo-1593693846848-45d4c34303ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "resolution": "800x240 (superiore), 320x240 (inferiore)",
+        "storage": "Scheda SD (inclusa)",
+        "popularGames": [
+            "The Legend of Zelda: Ocarina of Time 3D",
+            "Mario Kart 7"
+        ],
+        "dimensions": "93 x 156 x 22 mm",
+        "weightKg": 0.33,
+        "batteryLifeHrs": 6.5,
+        "id": 9,
+        "createdAt": "2025-06-16T09:19:47.908Z",
+        "updatedAt": "2025-06-16T09:19:47.908Z"
+    },
+    {
+        "title": "PlayStation Portable",
+        "category": "portatile",
+        "brand": "Sony",
+        "releaseYear": 2004,
+        "price": 169.99,
+        "description": "La prima console portatile di Sony, con capacità multimediali avanzate e giochi 3D.",
+        "imageUrl": "https://images.unsplash.com/photo-1675546529290-a2147e6e5cd5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fCUyMlBsYXlTdGF0aW9uJTIwUG9ydGFibGUlMjAoUFNQKSUyMnxlbnwwfHwwfHx8MA%3D%3D",
+        "resolution": "480x272",
+        "storage": "Memory Stick Duo (proprietaria)",
+        "popularGames": [
+            "Grand Theft Auto: Liberty City Stories",
+            "Monster Hunter Freedom Unite"
+        ],
+        "dimensions": "170 x 74 x 23 mm",
+        "weightKg": 0.28,
+        "batteryLifeHrs": 4,
+        "id": 10,
+        "createdAt": "2025-06-16T09:19:58.320Z",
+        "updatedAt": "2025-06-16T09:19:58.320Z"
+    }
+]

@@ -1,0 +1,39 @@
+.console-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    background-color: white;
+}
+
+
+.console-card h2 {
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.console-card p {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    color: #555;
+}
+
+.icon-button-console {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.console-card:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+}

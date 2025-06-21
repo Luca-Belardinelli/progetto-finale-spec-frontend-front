@@ -1,0 +1,23 @@
+.navpages {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #222;
+}
+
+.navpages a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    color: #ffffff;
+}
+
+.navpages a:hover {
+    color: #969AFF;
+}
+
+.navpages a.active {
+    color: #969AFF;
+}

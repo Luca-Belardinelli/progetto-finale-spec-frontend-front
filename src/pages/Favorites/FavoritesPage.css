@@ -1,0 +1,13 @@
+.favorites-grid {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.no-favorites-message {
+    padding-top: 50px;
+    height: 60vh;
+    font-size: 1.2rem;
+    color: #ff0000;
+    text-align: center;
+}

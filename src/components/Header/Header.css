@@ -1,0 +1,35 @@
+/* Header */
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #1E1E1E;
+    padding: 15px;
+    color: white;
+    border-bottom: 2px solid #969AFF;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.header-icon:hover {
+    color: #FF4500;
+}
