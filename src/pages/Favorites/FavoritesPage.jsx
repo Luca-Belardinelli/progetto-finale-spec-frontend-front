@@ -6,9 +6,9 @@ const FavoritesPage = () => {
     const { favorites, toggleFavorite } = useFavorites();
 
     if (favorites.length === 0) {
-        return <div className="no-favorites-message">
+        return <h1 className="no-favorites-message">
             Non hai ancora aggiunto nessuna console tra i preferiti.
-        </div>;
+        </h1>;
     }
 
 

@@ -7,7 +7,7 @@ export default function ComparePage() {
     const { compareItems, removeFromCompare, clearCompare } = useCompare();
 
     if (compareItems.length === 0) {
-        return <div className="compare-title-page">Nessuna console selezionata per il confronto.</div>;
+        return <h1 className="compare-title-page">Nessuna console selezionata per il confronto.</h1>;
     }
 
 
