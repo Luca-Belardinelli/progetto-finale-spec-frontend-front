@@ -8,11 +8,6 @@ const ConsoleCard = ({ console }) => {
 
     if (!console) return <h1>Nessuna console selezionata.</h1>;
 
-    const handleFavoriteClick = (e) => {
-        toggleFavorite(console);
-    };
-
-
 
     return (
         <div className="console-card">
@@ -25,7 +20,7 @@ const ConsoleCard = ({ console }) => {
                 <button
                     className="icon-button-console"
                     aria-label="Preferiti"
-                    onClick={handleFavoriteClick}
+                    onClick={() => toggleFavorite(console)}
                 >
                     <FaHeart color={isFavorite(console.id) ? 'red' : 'grey'} />
                 </button>
