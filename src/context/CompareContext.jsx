@@ -7,6 +7,7 @@ export function CompareProvider({ children }) {
 
 
     const addToCompare = (console) => {
+        // prev array coorente 
         setCompareItems((prev) => {
             if (prev.find((item) => item.id === console.id)) {
                 alert("Questa console è già nella lista.");
