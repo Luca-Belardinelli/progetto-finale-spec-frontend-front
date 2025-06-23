@@ -1,18 +1,18 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom"
-import DefaultLayout from "./layout/DefaultLayout";
+import { Routes, Route } from 'react-router-dom'
+import DefaultLayout from "./layout/DefaultLayout"
 
-// import pages
-import HomePage from "./pages/HomePage/HomePage";
-import ConsoleDetails from "./pages/ConsoleDetails/ConsoleDetails";
-import ConsoleComparator from "./pages/ConsoleComparator/ConsoleComparator";
-import FavoritesPage from "./pages/Favorites/FavoritesPage";
+import HomePage from "./pages/HomePage/HomePage"
+import ConsoleDetails from "./pages/ConsoleDetails/ConsoleDetails"
+import ConsoleComparator from "./pages/ConsoleComparator/ConsoleComparator"
+import FavoritesPage from "./pages/Favorites/FavoritesPage"
 
+import { FavoritesProvider } from './context/FavoritesContext'
+import { CompareProvider } from './context/CompareContext'
 
 function App() {
-
   return (
-    <>
-      <BrowserRouter>
+    <FavoritesProvider>
+      <CompareProvider>
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path="/" element={<HomePage />} />
@@ -21,8 +21,8 @@ function App() {
             <Route path="/favorites" element={<FavoritesPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
-    </>
+      </CompareProvider>
+    </FavoritesProvider>
   )
 }
 
