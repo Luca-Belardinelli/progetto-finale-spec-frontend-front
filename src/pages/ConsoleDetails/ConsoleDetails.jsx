@@ -120,7 +120,13 @@ export default function ConsoleDetails() {
                 <button
                     className="icon-button-detail"
                     aria-label="Comparazione"
-                    onClick={() => addToCompare(consoleData)}
+                    onClick={() => {
+                        if (!isInCompare(consoleId)) {
+                            addToCompare(consoleData);
+                        } else {
+                            alert(`${title} è già presente nel confronto.`);
+                        }
+                    }}
                     title="Vai alla pagina di comparazione"
                 >
                     <FaBalanceScale color={isInCompare(consoleId) ? "red" : "grey"} />
