@@ -16,7 +16,7 @@ export default function ConsoleDetails() {
     const { addToCompare, isInCompare } = useCompare();
 
 
-
+    const BASE_URL = import.meta.env.VITE_API_URL;
 
 
     useEffect(() => {
@@ -28,7 +28,7 @@ export default function ConsoleDetails() {
             }
 
             try {
-                const response = await fetch(`http://localhost:3001/consoles/${id}`);
+                const response = await fetch(`${BASE_URL}/consoles/${id}`);
                 if (!response.ok) {
                     const errorData = await response.json().catch(() => ({ message: "Errore sconosciuto" }));
                     throw new Error(
