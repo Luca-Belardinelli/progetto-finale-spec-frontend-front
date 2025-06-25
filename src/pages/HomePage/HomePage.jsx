@@ -87,6 +87,7 @@ function Home() {
                 </div>
 
                 <select
+                    className="category-filter"
                     value={categoryFilter}
                     onChange={e => setCategoryFilter(e.target.value)}
                 >

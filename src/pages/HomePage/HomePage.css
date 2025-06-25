@@ -45,10 +45,35 @@
     margin-left: 8px;
     display: flex;
     align-items: center;
+
 }
 
 .search-icon {
     width: 18px;
     height: 18px;
     color: #969AFF;
+}
+
+.sort-buttons button {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #969AFF;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(150, 154, 255, 0.10);
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+.category-filter {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #969AFF;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(150, 154, 255, 0.10);
+    transition: border-color 0.2s;
+    outline: none;
 }
