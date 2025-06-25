@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { FaHeart, FaBalanceScale } from "react-icons/fa";
-import NavBar from "../NavBar/NavBar";
 import "./Header.css";
 
 export default function Header() {
@@ -33,7 +32,6 @@ export default function Header() {
 
                     </div>
                 </div>
-                <NavBar />
             </header >
 
         </>
