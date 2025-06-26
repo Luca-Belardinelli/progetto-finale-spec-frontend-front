@@ -13,8 +13,8 @@ export function CompareProvider({ children }) {
                 alert("Questa console è già nella lista.");
                 return prev;
             }
-            if (prev.length >= 2) {
-                alert("Puoi confrontare solo due console.");
+            if (prev.length >= 3) {
+                alert("Puoi confrontare solo tre console.");
                 return prev;
             }
             alert("Console aggiunta alla comparazione!");

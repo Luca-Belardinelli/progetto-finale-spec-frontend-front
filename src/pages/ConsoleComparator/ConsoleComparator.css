@@ -19,14 +19,18 @@
 }
 
 .compare-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .compare-card {
-    flex: 1 1 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 480px;
     max-width: 360px;
     padding: 1.5rem;
     background: white;
@@ -49,6 +53,8 @@
 
 .compare-card img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
     max-width: 280px;
     margin: 0 auto 1rem;
     display: block;
@@ -57,9 +63,14 @@
 }
 
 .compare-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     font-size: 0.7rem;
     color: #444;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
 }
 
 .compare-info p {
