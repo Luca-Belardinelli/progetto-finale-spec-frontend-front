@@ -20,7 +20,6 @@
     font-weight: 700;
     margin-bottom: 1.2rem;
     color: #222;
-    font-family: 'Poppins', sans-serif;
 }
 
 .console-image {
@@ -35,7 +34,6 @@
 .console-info {
     font-size: 0.9rem;
     color: #333;
-    font-family: 'Poppins', sans-serif;
 }
 
 .console-info p {

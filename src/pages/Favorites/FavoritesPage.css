@@ -11,9 +11,8 @@
 }
 
 .no-favorites-message {
-    padding-top: 50px;
-    height: 60vh;
+    padding-top: 150px;
     font-size: 1.6rem;
-    color: #969AFF;
     text-align: center;
+    font-weight: 600;
 }
