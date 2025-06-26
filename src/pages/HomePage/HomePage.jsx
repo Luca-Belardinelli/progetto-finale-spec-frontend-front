@@ -22,10 +22,7 @@ function Home() {
     const [sortBy, setSortBy] = useState('title');
     const [sortOrder, setSortOrder] = useState(1);
 
-    const debounceSearch = useCallback(debounce((value) => {
-        console.log('setSearchQuery chiamato con:', value); // <-- QUI
-        setSearchQuery(value);
-    }, 500), []);
+    const debounceSearch = useCallback(debounce((value) => setSearchQuery(value), 500), []);
 
     useEffect(() => {
         const fetchConsoles = async () => {
