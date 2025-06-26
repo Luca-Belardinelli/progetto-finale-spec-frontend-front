@@ -1,7 +1,13 @@
 .favorites-grid {
     display: flex;
-    gap: 2rem;
-    padding: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 80px;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .no-favorites-message {

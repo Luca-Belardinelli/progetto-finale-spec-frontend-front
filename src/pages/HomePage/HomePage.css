@@ -3,8 +3,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: start;
+    padding-top: 80px;
     gap: 1rem;
-    padding: 55px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-console-grid {
     width: 100%;
 }
 

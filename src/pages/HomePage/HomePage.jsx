@@ -96,19 +96,26 @@ function Home() {
                     ))}
                 </select>
 
+
+
                 <div className="sort-buttons">
                     <button onClick={() => handleSort('title')}>
                         Ordina per Nome {sortBy === 'title' && sortIcon}
                     </button>
                 </div>
 
+
+
             </div>
 
-            <div className="console-grid">
-                {filteredAndSortedConsoles.map(console => (
-                    <ConsoleCard key={console.id} console={console} />
-                ))}
+            <div className='container-console-grid'>
+                <div className="console-grid">
+                    {filteredAndSortedConsoles.map(console => (
+                        <ConsoleCard key={console.id} console={console} />
+                    ))}
+                </div>
             </div>
+
         </div>
     );
 }
