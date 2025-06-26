@@ -1,45 +1,68 @@
 .container_detail {
-    width: 90%;
-    max-width: 400px;
-    margin: 2rem auto;
+    width: 95%;
+    max-width: 680px;
+    margin: 1rem auto;
     padding: 1.5rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s ease;
+}
+
+.container_detail:hover {
+    transform: translateY(-5px);
 }
 
 .title_console {
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
 }
 
 .console-image {
     width: 100%;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     display: block;
-    border-radius: 4px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .console-info {
-    padding: 0.8rem 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
 }
 
 .console-info p {
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
 }
 
+.console-info strong {
+    color: #111;
+}
 
+.icon-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
 
 .button_fav_detail,
 .icon-button-detail {
     background: none;
     border: none;
-    color: white;
     cursor: pointer;
-    font-size: 20px;
-    padding-right: 5px;
+    font-size: 24px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.button_fav_detail:hover,
+.icon-button-detail:hover {
+    transform: scale(1.15);
 }
