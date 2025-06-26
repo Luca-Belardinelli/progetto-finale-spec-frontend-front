@@ -15,7 +15,7 @@ export default function ComparePage() {
     return (
         <div className="compare-page">
 
-            <div className="compare-grid">
+            <div className={`compare-grid columns-${compareItems.length}`}>
                 {compareItems.map(console => (
                     <div key={console.id} className="compare-card">
                         <h2>{console.title}</h2>
@@ -41,6 +41,6 @@ export default function ComparePage() {
             </div>
 
             <button onClick={clearCompare}>Resetta Confronto</button>
-        </div>
+        </div >
     );
 }

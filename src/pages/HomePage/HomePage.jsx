@@ -98,8 +98,8 @@ function Home() {
 
 
 
-                <div className="sort-buttons">
-                    <button onClick={() => handleSort('title')}>
+                <div >
+                    <button className="sort-buttons" onClick={() => handleSort('title')}>
                         Ordina per Nome {sortBy === 'title' && sortIcon}
                     </button>
                 </div>

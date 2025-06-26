@@ -110,3 +110,19 @@
 .compare-page>button:hover {
     background-color: #33647d;
 }
+
+.compare-grid.columns-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.compare-grid.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+}
+
+.compare-grid.columns-3,
+.compare-grid {
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,7 +1,4 @@
 .console-card {
-    display: block;
-    text-decoration: none;
-    color: inherit;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
@@ -10,6 +7,7 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
     background-color: white;
+    cursor: pointer;
 }
 
 
@@ -28,12 +26,10 @@
     background: none;
     border: none;
     color: white;
-    cursor: pointer;
     font-size: 20px;
     padding-right: 5px;
 }
 
 .console-card:hover {
     transform: translateY(-4px);
-    cursor: pointer;
 }
