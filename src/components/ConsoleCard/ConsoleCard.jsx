@@ -6,7 +6,6 @@ import './ConsoleCard.css';
 const ConsoleCard = ({ console }) => {
     const { toggleFavorite, isFavorite } = useFavorites();
 
-    if (!console) return <h1>Nessuna console selezionata.</h1>;
 
 
     return (
