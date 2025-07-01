@@ -111,14 +111,14 @@
 }
 
 .compare-grid.columns-1 {
-    display: flex;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 .compare-grid.columns-2 {
     grid-template-columns: repeat(2, 1fr);
-    display: flex;
-    justify-content: center;
+    justify-items: center;
+
 }
 
 .compare-grid.columns-3,
