@@ -15,12 +15,7 @@
     font-weight: 600;
 }
 
-.compare-grid {
-    display: grid;
-    gap: 1.5rem;
-    justify-items: stretch;
-    align-items: stretch;
-}
+
 
 .compare-card {
     display: flex;
@@ -112,16 +107,18 @@
 
 .compare-grid.columns-1 {
     grid-template-columns: 1fr;
-    justify-items: center;
 }
 
 .compare-grid.columns-2 {
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
 
 }
 
-.compare-grid.columns-3,
+
 .compare-grid {
+    display: grid;
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: stretch;
     grid-template-columns: repeat(3, 1fr);
 }
