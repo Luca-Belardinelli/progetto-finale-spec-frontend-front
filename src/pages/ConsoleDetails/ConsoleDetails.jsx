@@ -21,26 +21,13 @@ export default function ConsoleDetails() {
 
     useEffect(() => {
         const fetchConsole = async () => {
-            if (!id) {
-                setLoading(false); // blocca il loading
-                setError("ID console non fornito nell'URL.");
-                return;
-            }
-
             try {
                 const response = await fetch(`${BASE_URL}/consoles/${id}`);
                 if (!response.ok) {
-                    const errorData = await response.json().catch(() => ({ message: "Errore sconosciuto" }));
-                    throw new Error(
-                        `HTTP error! status: ${response.status}. Messaggio: ${errorData.message || "Errore generico."}`
-                    );
+                    throw new Error(`Errore HTTP ${response.status}`);
                 }
                 const data = await response.json();
-                if (data && data.console) {
-                    setConsoleData(data.console);
-                } else {
-                    throw new Error("Console non trovata nella risposta del server.");
-                }
+                setConsoleData(data.console)
             } catch (e) {
                 setError(e.message);
             } finally {
