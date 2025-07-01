@@ -50,18 +50,7 @@
     color: #969AFF;
 }
 
-.sort-buttons {
-    background-color: #fff;
-    color: #333;
-    border: 2px solid #969AFF;
-    border-radius: 20px;
-    padding: 8px 18px;
-    font-size: 1rem;
-    box-shadow: 0 2px 6px rgba(150, 154, 255, 0.10);
-    transition: border-color 0.2s;
-    outline: none;
-}
-
+.sort-buttons,
 .category-filter {
     background-color: #fff;
     color: #333;
@@ -71,5 +60,4 @@
     font-size: 1rem;
     box-shadow: 0 2px 6px rgba(150, 154, 255, 0.10);
     transition: border-color 0.2s;
-    outline: none;
 }
